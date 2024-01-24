@@ -1,0 +1,181 @@
+/* ========= RESET ====== */
+*{margin: 0; padding: 0; font-size: 100%; border:none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Lato', sans-serif;};
+body{background-color:  #f5f5f5;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+#link-sm-green{font-size: 12pt !important; font-weight: 600; color: #197547;}
+#dev{text-decoration: none; color: #130400; font-weight: 800;}
+/* ========= CONTAINER -======== */
+.container{width: 100%; float: left; padding:  3% 4%; text-align: center; }
+
+
+/* ========= BG COLORS -======== */
+.bg-gradiente{background: linear-gradient(to right, #197547, #19b165);}
+.bg-black{background-color: #197547;}
+.bg-white{background-color: #fff;}
+.bg-escuro{background-color: #0e3f26;}
+.color-green{color: #197547;}
+
+
+/* COLORS TITLE */
+.color-green{color: #197547; font-weight: 800; font-size: 1.5em}
+.color-white{color: #fff; font-weight: 600;}
+
+
+/* ========= HELPERS -======== */
+.radius{border-radius: 7px;}
+
+
+
+.logo{width: 56px; height: 56px; float: left; background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/56px no-repeat; font-size: 0;} 
+/* A imagem deverá ficar a esquerda e centralizada, o font-size é para não apresentar o titulo da imagem que colocamos no h1 */
+
+.btn-menu{width: 56px; height: 56px; float: right; text-align: center; color: white; border-radius: 56px; cursor: pointer; }
+/* Icone importanto e transformado em botão */
+
+/* MENU */
+.menu{display: none; width: 100%; height: 100%; position:fixed; background-color:rgba(0,0,0,0.9); top:0; left:0;}
+.btn-close{font-size: 1.5em; color: #fff; float:right; cursor:pointer; margin: 2% 3% 0 0;}
+.menu ul{width:100%; float: left; text-align: center;}
+.menu li{padding:1.5%;}
+.menu li a{font-size:2em; color: #fff; padding: 1.5% 3%;}
+.menu li a:hover{border:1px solid #da6709;}
+
+/* BANNER HEADER*/
+.banner{background: url(../img/bg.jpg) no-repeat fixed; width: 100%; background-color: #197547;}
+.title{width: 100%;}
+.title h2{font-size: 2.5em; color: #fff; font-weight: 700;}
+.title h3{font-size: 1.5em; color: #fff;}
+.buttons{width: 100%; margin-top: 2%;}
+.buttons i {float: right;}
+.btn{width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; }
+.btn-cadastrar{color: #130400; font-weight: 600;}
+.btn-sobre{color: #fff; margin-top: 2%; font-weight: 600;}
+.btn-update{color: #130400; margin-top: 2%; font-weight: 600;}
+
+/* SERVIÇOS  */
+.servico{width: 100%; background-color: #fff; text-align: left;  margin-bottom: 3%;}
+.servico img{border-radius: 7px 7px 0 0;}
+.inner{padding: 7%;}
+.inner a {font-size:  1.5em; color: #130400; font-weight: 700;}
+.inner h4{font-size: 1.2em;  color: #130400; margin-top: 2%;}
+.inner p{margin-top: 6%; color: #130400; line-height: 1.5em;}
+
+
+/* NEWSLETTER */
+.newsletter{ background-color: #197547;}
+.newsletter h2{font-size: 1.5em; color: #fff; font-weight: 700;}
+.newsletter h3{color: #fff;}
+.newsletter form{margin-top: 2%;}
+.newsletter input{width: 100%;  color: #fff; border: 1px solid #fff; padding: 5%;}
+.newsletter button{width: 100%; color: #130400; font-weight: 700; padding: 5%; border: 5px; cursor: pointer; margin-top: 2%;}
+.newsletter::placeholder{color:  #fff;}
+
+/* RODAPÉ */
+.social-icons a{font-size: 1.5em; color: #fff; margin-right: 3%;}
+.social-icons a:last-child{margin-right: 0;}
+.social-icons a:hover {color: rgb(255,255,255);}
+.copyright{margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+
+
+/* TABELA DE PREÇOS */
+.table-precos{margin-top: 25px; width: 100%; margin-bottom: 40px;}
+.table-precos thead{background-color: #197547; padding: 10px; color: #fff; font-size: 14pt; }
+.table-precos tbody{background-color: #64dda125;}
+.table-precos h2{margin-top: 2%;}
+.btn-pedido {margin-top: 2%;}
+.btn-tabela {margin-bottom: 2%;}
+
+/* Contato */
+.contato{background-color: #eeeeee; display: flex; flex-direction: column; border-radius: 10px; margin-bottom: 10px; margin-top: 2x; padding-bottom: 10%;  padding-top: 10%; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.row{width: 100%;  margin-bottom: 5px; padding: 4px;}
+.row input{background-color: #fff; width: 80%; align-items: center; padding: 10px; border-radius: 7px; margin-bottom: 3px; margin-top: 2px; justify-content:center;}
+.row input::placeholder{color: black;}
+.row textarea{width: 80%; align-items: center; padding: 10px; border-radius: 7px; margin-bottom: 10px; margin-top: 2px;}
+.row textarea::placeholder{color: black;}
+.btn-enviar{text-align: center; padding: 10px; width: 80%; margin-top: 8px; cursor: pointer; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.btn-enviar:hover{background-color: #19b165; font-weight: bold; font-size: 20pt;}
+.contato:hover{background-color: #26a73c79;}
+.img-logo{width: 20%; margin: 0; padding: 0%;}
+/* MEDIA TYPES 
+Screen = Para monitores ou dispositivos com telas coloridas e resolução adequada
+
+Print = Para impressoras. muito usado para dar uma versão de impressão do site
+*/
+
+
+/* ========= MOBILE FIRST ======== */
+/* SMALL DEVICES - SMARTPHONES */
+
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        height: 56px;
+        float: left;
+        background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/214px no-repeat;
+        font-size: 0;
+    }
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px) {
+    .servico{width: 49%; float: left; margin-right: 2%;}
+    .servico:nth-child(2){margin-right: 0;}
+    .newsletter h2{font-size: 2em;}
+    .newsletter h3{font-size: 1.5em;}
+    .newsletter input{width: 70%; padding: 2%; float: left; margin-right: 1%; margin-top: 1%;}
+    .newsletter button{width: 29%; padding: 2%; float: right; margin-top: 1%;}
+}
+
+
+
+/* SMALL DEVICES - TABLETS E DESKTOPS*/
+@media screen and (min-width: 960px) {
+    .title{width: 70%; float: left; text-align: left;}
+    .title h2{font-size: 3em;}
+    .title h3{font-size: 2em;}
+    .buttons{width: 30%; float: right; margin-top: 0;}
+    .servico {width: 32%;}
+    .servico:nth-child(2){margin-right: 2%;}
+    .servico:nth-child(3){margin-right: 0;}
+    .newsletter input{width: 60%; float: none;}
+    .newsletter button{width: 20%; float: none;}
+    .logo{
+        width: 160px;
+        height: 160px;
+        float: left;
+        background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/214px no-repeat;
+        font-size: 0;
+    }
+    .btn-pedido {margin-top: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    .btn-tabela {margin-bottom: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    
+}
+
+
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #197547; display: block!important; position: static; border-radius: 10px;}
+    .menu li{padding: 0; float: left;}
+    .menu li a{color: #fff; font-size: 1em; padding: 15px;}
+    .menu li a:hover{border: none; color: #fff; font-weight: 800;}
+    .newsletter input{width: 40%; height: 2%; padding: 20px; float: none; font-size: 12pt;}
+    .newsletter button:hover{background-color: #0e3f26; color: #fff; }
+    .newsletter button{width: 20%; height: 2%; padding: 20px; font-size: 12pt;}
+    .banner {
+        background: url(../img/bg.jpg) no-repeat fixed;  
+        background-color: #197547;
+        background-size: cover; 
+        height: 400px; 
+    }
+    .btn-pedido {margin-top: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    .btn-tabela {margin-bottom: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    
+
+
+    
+}
