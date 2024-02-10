@@ -8,6 +8,8 @@
     <meta name="robots" content="index, follow">
     <meta name="author"  content="Gabriel Assis">
     <script src="https://kit.fontawesome.com/7829b6ee1e.js" crossorigin="anonymous"></script>
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +17,8 @@
     <link rel="icon" href="../img/logotipo horti fruti diadema.png">
     <link rel="shortcut icon" href="../img/logotipo horti fruti diadema.png" type="image/x-icon">
     <title>Hortifruti Diadema</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
     <!-- MENU -->
@@ -43,43 +47,102 @@
         </div>
     </div>
     <!-- Tipos de serviços -->
-    <main class="servicos container">
-        <div class="contato ">
-            <div class="row">
-                 <img src="../img/logotipo horti fruti diadema.png" alt="logo" class="img-logo">
+    <div class="container bg-white">
+        <div class="bg-lupa radius">
+            <i class="fa-solid fa-magnifying-glass" style="color: #0e3f26"></i><input type="text" class="form-product radius" placeholder="Pesquisar por produto">
+         </div>
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item" data-bs-interval="10000">
+          </div>
+          <div class="carousel-item active" data-bs-interval="2000">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>          </div>
+          <div class="carousel-item">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <main class="pedidos container">
+        <article class="pedidos bg-white radius">
+                <div class="card">
+                    <img class="card-img-top" src="../img/catalogo/goiaba-vermelha.jpg" alt="frutas">
+                    <div class="card-body">
+                        <div class="card-description">
+                            <p class="card-title">Goiaba </p>
+                            <p class="card-text">R$ 6,80</p>
+                          </div>
+                        <button type="button" class="btn btn-addcarrinho"><i class="fa-solid fa-plus"></i></button>
+                     </div>
+                </div>
+        </article>
+        <article class="pedidos bg-white radius">
+            <div class="card">
+                <img class="card-img-top" src="../img/catalogo/abacaxi.jpg" alt="frutas">
+                <div class="card-body">
+                    <div class="card-description">
+                        <p class="card-title">Abacaxi </p>
+                        <p class="card-text">R$ 8,80</p>
+                    </div>
+                    <button type="button" class="btn btn-addcarrinho"><i class="fa-solid fa-plus"></i></button>
+                 </div>
             </div>
-            <article>
-                <p>Em construção</p>
-            </article>
-        </div>
-      
-
-    </main>
-    <!-- NEWSLETTER -->
-    <section class="newsletter container bg-black">
-        <h2>Inscreva-se agora</h2>
-        <h3>Receba novidades, dicas e muito mais</h3>
-        <form action="">
-            <input type="email" id="email" class="bg-escuro radius" name="email" placeholder="Seu email">
-            <button type="button" class="bg-white radius" >Cadastrar</button>
-        </form>
-    </section>
+        </article>
+        <article class="pedidos bg-white radius">
+            <div class="card">
+                <img class="card-img-top" src="../img/catalogo/ameixa-rosada.jpg" alt="frutas">
+                <div class="card-body">
+                    <div class="card-description">
+                        <p class="card-title">Ameixa</p>
+                        <p class="card-text">R$ 8,80</p>
+                    </div>
+                    <button type="button" class="btn btn-addcarrinho"><i class="fa-solid fa-plus"></i></button>
+                 </div>
+            </div>
+        </article>
+       
+    </main>   
     <!-- RODAPÉ -->
-    <footer class="rodape container bg-gradiente">
-        <div class="social-icons">
-            <a href="https://maps.app.goo.gl/D16Zh5Shss3VXwnGA" target="_blank"><i class="fa fa-map-marker"></i></a>
-            <a href="https://www.instagram.com/hortifrutidiadema/" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-envelope"></i></a>
+    <footer class="rodape resumo bg-gradiente">
+        <div class="cart-description">
+            <div class="items-sacola">
+                <div class="coluna">
+                  <p class="p-cart">Total sem a entrega</p>
+                    <h6 class="h6-resum">R$ 8,80  </h6>
+                </div>
+                <div class="coluna">
+                    <button class="btn-sacola ">Ver sacola</button>
+                 </div>
+            </div>
+           
         </div>
-        <p class="copyright">
-            <strong>Copyright Hortifruti Diadema. <br> Todos os direitos reversados.</strong><br><br>
-            <a id="dev" href="https://deveassis.github.io/portfolio/" target="_blank"><strong>Desenvolvido por: Gabriel Assis</strong></a><br>
-            <a href="https://deveassis.github.io/portfolio/" target="_blank"><img src="../img/Capturar - Copia.PNG" alt="Atendimento Delivery" width="80px"></a>
-        </p>
+        
     </footer>
+    <div class="jump resumo bg-escuro">
+    </div>
     <!-- JQUERY -->
     <!-- Instalação do pluggin jquery para fechamento do menu -->
     <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script>
         $(".btn-menu").click(function(){
             $(".menu").show();

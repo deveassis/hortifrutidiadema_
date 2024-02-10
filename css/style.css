@@ -8,6 +8,7 @@ img{max-width: 100%;}
 #dev{text-decoration: none; color: #130400; font-weight: 800;}
 /* ========= CONTAINER -======== */
 .container{width: 100%; float: left; padding:  3% 4%; text-align: center; }
+.resumo{width: 100%; float: left; padding: 3% 4%; padding-top: 2px; padding-bottom: 8px;}
 
 
 /* ========= BG COLORS -======== */
@@ -15,11 +16,14 @@ img{max-width: 100%;}
 .bg-black{background-color: #197547;}
 .bg-white{background-color: #fff;}
 .bg-escuro{background-color: #0e3f26;}
+.bg-gray{background-color: #dedede6e;}
 .color-green{color: #197547;}
+.r-radius{border-radius: 100%;}
 
 
 /* COLORS TITLE */
 .color-green{color: #197547; font-weight: 800; font-size: 1.5em}
+.color-escuro{color: #0e3f26;}
 .color-white{color: #fff; font-weight: 600;}
 
 
@@ -81,6 +85,7 @@ img{max-width: 100%;}
 
 
 /* TABELA DE PREÇOS */
+
 .table-precos{margin-top: 25px; width: 100%; margin-bottom: 40px;}
 .table-precos thead{background-color: #197547; padding: 10px; color: #fff; font-size: 14pt; }
 .table-precos tbody{background-color: #64dda125;}
@@ -99,6 +104,43 @@ img{max-width: 100%;}
 .btn-enviar:hover{background-color: #19b165; font-weight: bold; font-size: 20pt;}
 .contato:hover{background-color: #26a73c79;}
 .img-logo{width: 20%; margin: 0; padding: 0%;}
+
+
+/* Pedido */
+.btn-addcarrinho{background-color: #197547 !important; border-radius: 100%; width: 40%; float: right; margin-bottom: 0; font-size: 10pt; font-weight: 800; color: #fff; border-color: #fff; text-align: center;}
+.btn-addcarrinho::hover{background-color: #19b165; color: #fff;}
+.pedidos{display:flex; width: 100%;  background-color: #fff; text-align: center;  margin-bottom: 7%;}
+.titulo-pedido{text-align: left; font-size: 10pt; margin-left: 30px;  font-family: sans-serif; font-weight: 800; color: #555555;}
+.market-input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%;}
+.market-input > input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%; border-color: #F7F7F7;}
+.market-input i{color: #197547; width: 10%; height: 10%; margin-top: 15px;}
+.market-header-space{margin-top: 40px;}
+.card-img-top{height: 50%;}
+.card-body{height: 40%; padding-bottom: 0;}
+.card-description{height: 40%; margin-bottom: 10px; margin-top: 2px;}
+.cart-description{height: 40%; ; padding-top: 0px; padding-bottom: 0px;}
+.market-catalog{display: inline-flex; width: 100%;}
+.product-catalog{display:flexbox; width: 100%;}
+.card{background-color: #fcfcfc !important; color: #197547 !important; width: 100% !important;  height: 100% !important; margin: 10px; border-color: #F7F7F7;}
+.card-title{font-weight: 800; font-size: 12pt; float: left; margin-bottom: 0;}
+.card-text{font-weight: 800; font-size: 9pt; float: left;}
+.btn-primary{background-color: #197547 !important; font-size: 10pt; font-weight: 800; border-color: #19b165; text-align: center;}
+.btn-primary::hover{background-color: #19b165;}
+.foto-product{width: 50%;}
+.contato{background-color: #fff; display: flex; flex-direction: column; border-radius: 10px; margin-bottom: 10px; margin-top: 2x; padding-bottom: 10%;  padding-top: 10%; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.form-product{width: 94%; height: 50%; padding: 8px; background-color: #dedede00;  font-size: 12pt; color: #0e3f26;}
+.cart{ float: right; color: #fff; font-size: 20pt; margin-right: 10px;}
+.cart-itens{height: 20%; }
+.h6-resum{margin-left: 4px; font-size: 12pt; font-weight: 600; padding: 0; margin: 0; margin-top: 1px; color: #ffffffe8;}
+.jump{padding: 40px; height: 100%; width: 100%; margin-bottom: 0;}
+.p-cart{color: #fff; margin-bottom: 0; font-size: 8pt; margin-top: 8px;}
+.btn-sacola{background-color: #0e3f26 !important; font-size: 10pt; padding: 7px; padding-right: 2px; padding-left: 2px; width: 100%; color: #fff; border-radius: 5px;
+     margin-top: 10px; }
+.items-sacola{display: flex;}
+.coluna{ flex: 1;
+  }
+.bg-lupa{background-color: #dedede6e;}
+
 /* MEDIA TYPES 
 Screen = Para monitores ou dispositivos com telas coloridas e resolução adequada
 
@@ -140,6 +182,7 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
     .servico {width: 32%;}
     .servico:nth-child(2){margin-right: 2%;}
     .servico:nth-child(3){margin-right: 0;}
+    .pedidos{display: flex; width: 100% !important; margin: 4px !important;}
     .newsletter input{width: 60%; float: none;}
     .newsletter button{width: 20%; float: none;}
     .logo{
@@ -151,6 +194,7 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
     }
     .btn-pedido {margin-top: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
     .btn-tabela {margin-bottom: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    
     
 }
 
