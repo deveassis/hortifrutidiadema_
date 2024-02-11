@@ -52,7 +52,7 @@ img{max-width: 100%;}
 .menu ul{width:100%; float: left; text-align: center;}
 .menu li{padding:1.5%;}
 .menu li a{font-size:2em; color: #fff; padding: 1.5% 3%;}
-.menu li a:hover{border:3px solid #19b165; background-color: #197547; color: #fff; border-radius: 8px; font-weight: 600;}
+.menu li a:hover{border:3px solid #19b165; background-color: #197547; color: #fff; eeeeeeeeeeeeeeeeeeeeeeeeeeborder-radius: 8px; font-weight: 600;}
 
 /* BANNER HEADER*/
 .banner{background: url(../img/bg.jpg) no-repeat fixed; width: 100%; background-color: #197547;}
