@@ -218,7 +218,7 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
 @media screen and (min-width: 1280px) {
     .btn-menu{display: none;}
     .btn-close{display: none;}
-    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #197547; display: block!important; position: static; border-radius: 10px;}
+    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #000000; display: block!important; position: static; border-radius: 10px;}
     .menu li{padding: 0; float: left;}
     .menu li a{color: #fff; font-size: 1em; padding: 15px;}
     .menu li a:hover{border: none; color: #fff; font-weight: 800;}
