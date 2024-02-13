@@ -123,10 +123,11 @@ img{max-width: 100%;}
     justify-content: space-between; /* Adjust as needed for spacing between items */
 }
 .pedidos article {
-    flex: 0 0 calc(33.33%);
+    flex: 0 0 calc(35.33%);
     box-sizing: border-box;
-    margin: 10px;
-    padding: 10px;
+    margin: 2px;
+    margin-top: 2px;
+    padding: 12px;
     background-color: #fcfcfc;
     color: #197547;
     border-color: #F7F7F7;
@@ -138,13 +139,13 @@ img{max-width: 100%;}
 .market-input > input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%; border-color: #F7F7F7;}
 .market-input i{color: #197547; width: 10%; height: 10%; margin-top: 15px;}
 .market-header-space{margin-top: 40px;}
-.card-img-top{height: 50%;}
+.card-img-top{height: 50%; width: 89%;}
 .card-body{height: 40%; padding-bottom: 0;}
 .card-description{height: 40%; margin-bottom: 10px; margin-top: 2px;}
 .cart-description{height: 40%; ; padding-top: 0px; padding-bottom: 0px;}
 .market-catalog{display: inline-flex; width: 100%;}
 .product-catalog{display:flexbox; width: 100%;}
-.card{background-color: #fcfcfc !important; color: #197547 !important; width: 100% !important;  height: 100% !important; margin: 10px; border-color: #F7F7F7;}
+.card{background-color: #fcfcfc !important; color: #197547 !important; width: 100% !important;  height: 100% !important; margin: 10px; margin-top: 4px; border-color: #F7F7F7;}
 .card-title{font-weight: 800; font-size: 12pt; float: left; margin-bottom: 0;}
 .card-text{font-weight: 800; font-size: 9pt; float: left;}
 .btn-primary{background-color: #197547 !important; font-size: 10pt; font-weight: 800; border-color: #19b165; text-align: center;}
