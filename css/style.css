@@ -116,7 +116,7 @@ img{max-width: 100%;}
 
 /* Pedido */
 .btn-addcarrinho{background-color: #197547 !important; border-radius: 100%; width: 40%; float: right; margin-bottom: 0; font-size: 10pt; font-weight: 800; color: #fff; border-color: #fff; text-align: center;}
-.btn-addcarrinho::hover{background-color: #19b165; color: #fff;}
+.btn-addcarrinho:hover{background-color: #19b165; color: #fff;}
 .pedidos {
     display: flex;
     flex-wrap: wrap;
