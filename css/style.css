@@ -170,6 +170,7 @@ img{max-width: 100%;}
 .p-cart{color: #fff; margin-bottom: 0; font-size: 8pt; margin-top: 8px;}
 .btn-sacola{background-color: #0e3f26 !important; font-size: 10pt; padding: 7px; padding-right: 2px; padding-left: 2px; width: 100%; color: #fff; border-radius: 5px;
      margin-top: 10px; }
+.btn-sacola:hover{background-color: #0a2b1a !important; color: #fff; font-weight: 800;}
 .items-sacola{display: flex;}
 .coluna{ flex: 1;
   }
@@ -273,7 +274,10 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
     }
     .btn-pedido {margin-top: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
     .btn-tabela {margin-bottom: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
-    
+    .btn-sacola{float: right; width: 50%; font-size: 15pt;}
+
+    .h6-resum{font-size: 15pt;}
+    .p-cart{font-size: 9pt;}
 
 
     
