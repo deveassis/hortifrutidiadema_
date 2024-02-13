@@ -7,7 +7,7 @@ img{max-width: 100%;}
 #link-sm-green{font-size: 12pt !important; font-weight: 600; color: #197547;}
 #dev{text-decoration: none; color: #130400; font-weight: 800;}
 /* ========= CONTAINER -======== */
-.container{width: 100%; float: left; padding:  3% 4%; text-align: center; }
+.containner{width: 100%; float: left; padding:  3% 4%; text-align: center; }
 .resumo{width: 100%; float: left; padding: 3% 4%; padding-top: 2px; padding-bottom: 8px;}
 
 .menu-open .pedidos {
@@ -52,7 +52,7 @@ img{max-width: 100%;}
 .menu ul{width:100%; float: left; text-align: center;}
 .menu li{padding:1.5%;}
 .menu li a{font-size:2em; color: #fff; padding: 1.5% 3%;}
-.menu li a:hover{border:3px solid #19b165; background-color: #197547; color: #fff; eeeeeeeeeeeeeeeeeeeeeeeeeeborder-radius: 8px; font-weight: 600;}
+.menu li a:hover{border:3px solid #19b165; background-color: #197547; color: #fff; border-radius: 8px; font-weight: 600;}
 
 /* BANNER HEADER*/
 .banner{background: url(../img/bg.jpg) no-repeat fixed; width: 100%; background-color: #197547;}
@@ -126,12 +126,27 @@ img{max-width: 100%;}
     flex: 0 0 calc(35.33%);
     box-sizing: border-box;
     margin: 2px;
-    margin-top: 2px;
+    margin-top: 4px;
     padding: 12px;
     background-color: #fcfcfc;
     color: #197547;
     border-color: #F7F7F7;
 }
+.card{background-color: #fcfcfc !important;
+     color: #197547 !important; 
+     width: 100% !important; 
+      height: 100% !important;
+       margin: 8px; 
+       margin-top: 4px; 
+       padding: 16px;
+       border-color: #F7F7F7;}
+       .card-img-top{height: 50%;
+             width: 100%;}
+
+             .card-body{height: 40%; padding: 14px; width: 100%;}
+             .card-description{height: 40%; 
+                margin-bottom: 10px; margin-top: 2px; padding: 14px;}
+
 
 
 .titulo-pedido{text-align: left; font-size: 10pt; margin-left: 30px;  font-family: sans-serif; font-weight: 800; color: #555555;}
@@ -139,14 +154,9 @@ img{max-width: 100%;}
 .market-input > input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%; border-color: #F7F7F7;}
 .market-input i{color: #197547; width: 10%; height: 10%; margin-top: 15px;}
 .market-header-space{margin-top: 40px;}
-.card-img-top{height: 50%; width: 89%;}
-.card-body{height: 40%; padding-bottom: 0;}
-.card-description{height: 40%; margin-bottom: 10px; margin-top: 2px;}
-.cart-description{height: 40%; ; padding-top: 0px; padding-bottom: 0px;}
 .market-catalog{display: inline-flex; width: 100%;}
 .product-catalog{display:flexbox; width: 100%;}
-.card{background-color: #fcfcfc !important; color: #197547 !important; width: 100% !important;  height: 100% !important; margin: 10px; margin-top: 4px; border-color: #F7F7F7;}
-.card-title{font-weight: 800; font-size: 12pt; float: left; margin-bottom: 0;}
+.card-title{font-weight: 800; font-size: 12pt; float: left; margin-bottom: 0; width: 100%;}
 .card-text{font-weight: 800; font-size: 9pt; float: left;}
 .btn-primary{background-color: #197547 !important; font-size: 10pt; font-weight: 800; border-color: #19b165; text-align: center;}
 .btn-primary::hover{background-color: #19b165;}
@@ -174,16 +184,36 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
 
 /* ========= MOBILE FIRST ======== */
 /* SMALL DEVICES - SMARTPHONES */
-
-@media screen and (min-width: 480px) {
+/* Iphone xr */
+@media screen and (min-width: 400px) {
     .logo {
         width: 214px;
         height: 56px;
         float: left;
-        background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/214px no-repeat;
+        background: url(../img/logotipo\ horti\ fruti\ diadema.png)left center/80px no-repeat;
         font-size: 0;
     }
 }
+/* Iphone 12 */
+@media screen and (min-width: 390px) {
+    .logo {width: 214px; height: 56px;float: left;background: url(../img/logotipo\ horti\ fruti\ diadema.png) left center/80px no-repeat;font-size: 0;}
+    .pedidos article {flex: 0 0 calc(8.33%);box-sizing: border-box;margin: 2px;margin-top: 4px;padding: 12px;background-color: #fcfcfc;color: #197547;border-color: #F7F7F7;}
+    .card{background-color: #fcfcfc !important;color: #197547 !important;  width: 100% !important; height: 100% !important;margin: 8px; margin-top: 4px; padding: 10px;border-color: #F7F7F7;}
+    .card-img-top{height: 50%;width: 100%;}
+    .card-body{height: 40%; padding: 14px; width: 100%;}
+    .card-description{height: 40%; margin-bottom: 10px; margin-top: 2px; padding: 14px;}
+}
+
+/* Galaxy s8 */
+@media screen and (min-width: 360px) {
+    .logo {width: 214px; height: 56px;float: left;background: url(../img/logotipo\ horti\ fruti\ diadema.png) left center/80px no-repeat;font-size: 0;}
+    .pedidos article {flex: 0 0 calc(8.33%);box-sizing: border-box;margin: 2px;margin-top: 4px;padding: 12px;background-color: #fcfcfc;color: #197547;border-color: #F7F7F7;}
+    .card{background-color: #fcfcfc !important;color: #197547 !important;  width: 100% !important; height: 100% !important;margin: 8px; margin-top: 4px; padding: 4px;border-color: #F7F7F7;}
+    .card-img-top{height: 50%;width: 100%;}
+    .card-body{height: 40%; padding: 14px; width: 100%;}
+    .card-description{height: 40%; margin-bottom: 10px; margin-top: 2px; padding: 14px;}
+}
+
 
 /* SMALL DEVICES - TABLETS */
 @media screen and (min-width: 768px) {
@@ -193,6 +223,7 @@ Print = Para impressoras. muito usado para dar uma versão de impressão do site
     .newsletter h3{font-size: 1.5em;}
     .newsletter input{width: 70%; padding: 2%; float: left; margin-right: 1%; margin-top: 1%;}
     .newsletter button{width: 29%; padding: 2%; float: right; margin-top: 1%;}
+    
 }
 
 
