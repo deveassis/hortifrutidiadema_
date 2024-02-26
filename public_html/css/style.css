@@ -1,0 +1,306 @@
+/* ========= RESET ====== */
+*{margin: 0; padding: 0; font-size: 100%; border:none; outline: none; font-weight: 300; box-sizing: border-box; font-family: 'Lato', sans-serif;};
+body{background-color:  #f5f5f5;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+#link-sm-green{font-size: 12pt !important; font-weight: 600; color: #197547;}
+#dev{text-decoration: none; color: #130400; font-weight: 800;}
+/* ========= CONTAINER -======== */
+.containner{width: 100%; float: left; padding:  3% 4%; text-align: center; }
+.container{width: 100%; float: left; padding:  3% 4%; text-align: center; }
+
+.resumo{width: 100%; float: left; padding: 3% 4%; padding-top: 2px; padding-bottom: 8px;}
+
+.menu-open .pedidos {
+    filter: blur(40px);
+  }
+  
+  body.menu-open {
+    overflow: hidden;
+
+  }
+
+/* ========= BG COLORS -======== */
+.bg-gradiente{background: linear-gradient(to right, #197547, #19b165);}
+.bg-black{background-color: #197547;}
+.bg-white{background-color: #fff;}
+.bg-escuro{background-color: #0e3f26;}
+.bg-gray{background-color: #dedede6e;}
+.color-green{color: #197547;}
+.r-radius{border-radius: 100%;}
+
+
+/* COLORS TITLE */
+.color-green{color: #197547; font-weight: 800; font-size: 1.5em}
+.color-escuro{color: #0e3f26;}
+.color-white{color: #fff; font-weight: 600;}
+
+
+/* ========= HELPERS -======== */
+.radius{border-radius: 7px;}
+
+
+
+.logo{width: 56px; height: 56px; float: left; background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/56px no-repeat; font-size: 0;} 
+/* A imagem deverá ficar a esquerda e centralizada, o font-size é para não apresentar o titulo da imagem que colocamos no h1 */
+
+.btn-menu{width: 56px; height: 56px; float: right; text-align: center; color: white; border-radius: 56px; cursor: pointer; }
+/* Icone importanto e transformado em botão */
+
+/* MENU */
+.menu{display: none; width: 100%; height: 100%; position:fixed; background-color:rgb(0, 0, 0); top:0; left:0;}
+.btn-close{font-size: 1.5em; color: #fff; float:right; cursor:pointer; margin: 2% 3% 0 0;}
+.menu ul{width:100%; float: left; text-align: center;}
+.menu li{padding:1.5%;}
+.menu li a{font-size:2em; color: #fff; padding: 1.5% 3%;}
+.menu li a:hover{border:3px solid #19b165; background-color: #197547; color: #fff; border-radius: 8px; font-weight: 600;}
+
+/* BANNER HEADER*/
+.banner{background: url(../img/bg.jpg) no-repeat fixed; width: 100%; background-color: #197547;}
+.title{width: 100%;}
+.title h2{font-size: 2.5em; color: #fff; font-weight: 700;}
+.title h3{font-size: 1.5em; color: #fff;}
+.buttons{width: 100%; margin-top: 2%;}
+.buttons i {float: right;}
+.btn{width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; }
+.btn-cadastrar{color: #130400; font-weight: 600;}
+.btn-sobre{color: #fff; margin-top: 2%; font-weight: 600;}
+.btn-update{color: #130400; margin-top: 2%; font-weight: 600;}
+
+/* SERVIÇOS  */
+.servico{width: 100%; background-color: #fff; text-align: left;  margin-bottom: 3%;}
+.servico img{border-radius: 7px 7px 0 0;}
+.inner{padding: 7%;}
+.inner a {font-size:  1.5em; color: #130400; font-weight: 700;}
+.inner h4{font-size: 1.2em;  color: #130400; margin-top: 2%;}
+.inner p{margin-top: 6%; color: #130400; line-height: 1.5em;}
+
+
+/* NEWSLETTER */
+.newsletter{ background-color: #197547;}
+.newsletter h2{font-size: 1.5em; color: #fff; font-weight: 700;}
+.newsletter h3{color: #fff;}
+.newsletter form{margin-top: 2%;}
+.newsletter input{width: 100%;  color: #fff; border: 1px solid #fff; padding: 5%;}
+.newsletter button{width: 100%; color: #130400; font-weight: 700; padding: 5%; border: 5px; cursor: pointer; margin-top: 2%;}
+.newsletter::placeholder{color:  #fff;}
+
+/* RODAPÉ */
+.social-icons a{font-size: 1.5em; color: #fff; margin-right: 3%;}
+.social-icons a:last-child{margin-right: 0;}
+.social-icons a:hover {color: rgb(255,255,255);}
+.copyright{margin-top: 2%; color: rgba(255,255,255,0.7);}
+
+
+
+/* TABELA DE PREÇOS */
+
+.table-precos{margin-top: 25px; width: 100%; margin-bottom: 40px;}
+.table-precos thead{background-color: #197547; padding: 10px; color: #fff; font-size: 14pt; }
+.table-precos tbody{background-color: #64dda125;}
+.table-precos h2{margin-top: 2%;}
+.btn-pedido {margin-top: 2%;}
+.btn-tabela {margin-bottom: 2%;}
+
+/* TABELA SACOLA */
+.table-sacola{margin-top: 25px; width: 100%; margin-bottom: 15px;}
+.table-sacola > thead{background-color:#eeeeee; color: #333333; font-size: 12pt; padding: 10px;}
+.table-sacola > tbody{color: #197547;}
+.btn-concluir{background-color: #0e3f26; width: 50%; color: white; padding: 10px;}
+.btn-concluir:hover{background-color: #19b165; cursor: pointer; font-weight: 800;}
+.btn-fechar{background-color:#e2e2e2 ; color: #130400; padding: 10px; width: 50%;}
+.btn-fechar:hover{background-color: #a8a8a8; color: black; font-weight: 800; cursor: pointer;}
+
+/* Contato */
+.contato{background-color: #eeeeee; display: flex; flex-direction: column; border-radius: 10px; margin-bottom: 10px; margin-top: 2x; padding-bottom: 10%;  padding-top: 10%; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.row{width: 100%;  margin-bottom: 5px; padding: 4px;}
+.row input{background-color: #fff; width: 80%; align-items: center; padding: 10px; border-radius: 7px; margin-bottom: 3px; margin-top: 2px; justify-content:center;}
+.row input::placeholder{color: black;}
+.row textarea{width: 80%; align-items: center; padding: 10px; border-radius: 7px; margin-bottom: 10px; margin-top: 2px;}
+.row textarea::placeholder{color: black;}
+.btn-enviar{text-align: center; padding: 10px; width: 80%; margin-top: 8px; cursor: pointer; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.btn-enviar:hover{background-color: #19b165; font-weight: bold; font-size: 20pt;}
+.contato:hover{background-color: #26a73c79;}
+.img-logo{width: 20%; margin: 0; padding: 0%;}
+
+
+/* Pedido */
+.btn-addcarrinho{background-color: #197547 !important; border-radius: 100%; width: 40%; float: right; margin-bottom: 0; font-size: 10pt; font-weight: 800; color: #fff; border-color: #fff; text-align: center;}
+.btn-addcarrinho:hover{background-color: #19b165; color: #fff;}
+.tab-content{padding: 0px !important; margin: 0px !important;}
+.pedidos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: 14px !important;
+}
+.pedidos > div{
+    margin: 9px !important;
+    padding: 18px;
+    width: 100% !important;
+    height: 88% !important;
+}
+.pedidos > article {
+    width: 100% !important;
+    margin: 0px !important; 
+    margin-top: 0px !important;
+    padding: 2px !important;
+    background-color: #fcfcfc;
+    color: #197547;
+    border-color: #F7F7F7;
+}
+.card{background-color: #fcfcfc !important;
+     color: #197547 !important; 
+     width: 100% !important; 
+      height: 100% !important;
+       margin: 2px !important;
+       padding: 20px !important;
+       border-color: #F7F7F7;}
+       .card-img-top{
+             width: 100% !important;
+              height: 136.85px !important;
+            }
+            .card-description{height: 100%; width: 100% !important; margin: 0; padding: 0px;}
+
+             .card-body{height: 100%; padding: 20px !important; margin: 0 !important; width: 100% !important;}
+
+             .card-title{font-weight: 800; font-size: 11pt; float: left; margin-bottom: 0px; padding: 1px !important; width: 100% !important;}
+             .card-text{font-weight: 800; font-size: 8pt; padding: 0px !important; margin: 0px; text-align: center; width: 100 !important;}
+
+.titulo-pedido{text-align: left; font-size: 10pt; margin-left: 30px;  font-family: sans-serif; font-weight: 800; color: #555555;}
+.market-input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%;}
+.market-input > input{display: flex; flex-direction: row; background-color: #F7F7F7; border-radius: 10px; width: 100%; border-color: #F7F7F7;}
+.market-input i{color: #197547; width: 10%; height: 10%; margin-top: 15px;}
+.market-header-space{margin-top: 40px;}
+.market-catalog{display: inline-flex; width: 100%;}
+.product-catalog{display:flexbox; width: 100%;}
+
+.btn-primary{background-color: #197547 !important; font-size: 13pt; font-weight: 400; border-color: #19b165; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+.btn-primary:hover{background-color: #19b165 !important; border: none; font-weight: 600;}
+.foto-product{width: 50%;}
+.contato{background-color: #fff; display: flex; flex-direction: column; border-radius: 10px; margin-bottom: 10px; margin-top: 2x; padding-bottom: 10%;  padding-top: 10%; -webkit-transition: background-color 2s ease-out; -moz-transition: background-color 2s ease-out; -o-transition: background-color 2s ease-out; transition: background-color 2s ease-out;}
+.form-product{width: 94%; height: 50%; padding: 8px; background-color: #dedede00;  font-size: 12pt; color: #0e3f26;}
+.cart{ float: right; color: #fff; font-size: 20pt; margin-right: 10px;}
+.cart-itens{height: 20%; }
+.h6-resum{margin-left: 4px; font-size: 12pt; font-weight: 600; padding: 0; margin: 0; margin-top: 1px; color: #ffffffe8;}
+.jump{padding: 40px; height: 100%; width: 100%; margin-bottom: 0;}
+.p-cart{color: #fff; margin-bottom: 0; font-size: 8pt; margin-top: 8px;}
+.btn-sacola{background-color: #0e3f26 !important; font-size: 10pt; padding: 7px; padding-right: 2px; padding-left: 2px; width: 100%; color: #fff; border-radius: 5px;
+     margin-top: 10px; }
+.btn-sacola:hover{background-color: #0a2b1a !important; color: #fff; font-weight: 800;}
+#verSacola{ cursor: pointer;}
+.items-sacola{display: flex;}
+.coluna{ flex: 1;
+  }
+.bg-lupa{background-color: #dedede6e;}
+.nav-link{background-color: white !important; color: black !important;}
+.nav-link:hover{background-color: #197547 !important; color: white !important; font-weight: 800 !important; cursor: pointer !important;}
+button[aria-selected="true"] {
+    background-color: #197547 !important; 
+    color: #ffffff !important; 
+    font-weight: 800 !important;
+}
+
+/* MEDIA TYPES 
+Screen = Para monitores ou dispositivos com telas coloridas e resolução adequada
+
+Print = Para impressoras. muito usado para dar uma versão de impressão do site
+*/
+
+
+/* ========= MOBILE FIRST ======== */
+/* SMALL DEVICES - SMARTPHONES */
+/* Iphone xr */
+@media screen and (min-width: 400px) {
+    .logo {
+        width: 214px;
+        height: 56px;
+        float: left;
+        background: url(../img/logotipo\ horti\ fruti\ diadema.png)left center/80px no-repeat;
+        font-size: 0;
+    }
+}
+/* Iphone 12 */
+@media screen and (min-width: 390px) {
+    .logo {width: 214px; height: 56px;float: left;background: url(../img/logotipo\ horti\ fruti\ diadema.png) left center/80px no-repeat;font-size: 0;}
+    .pedidos article {flex: 0 0 calc(8.33%);box-sizing: border-box;margin: 2px;margin-top: 4px;padding: 12px;background-color: #fcfcfc;color: #197547;border-color: #F7F7F7;}
+    .card{background-color: #fcfcfc !important;color: #197547 !important;  width: 100% !important; height: 100% !important;margin: 8px; margin-top: 4px; padding: 10px;border-color: #F7F7F7;}
+    .card-img-top{height: 50%;width: 100%;}
+    .card-body{height: 40%; padding: 14px; width: 100%;}
+    .card-description{height: 40%; margin-bottom: 10px; margin-top: 2px; padding: 14px;}
+}
+
+/* Galaxy s8 */
+@media screen and (min-width: 360px) {
+    .logo {width: 214px; height: 56px;float: left;background: url(../img/logotipo\ horti\ fruti\ diadema.png) left center/80px no-repeat;font-size: 0;}
+    .pedidos article {flex: 0 0 calc(8.33%);box-sizing: border-box;margin: 2px;margin-top: 4px;padding: 12px;background-color: #fcfcfc;color: #197547;border-color: #F7F7F7;}
+    .card{background-color: #fcfcfc !important;color: #197547 !important;  width: 100% !important; height: 100% !important;margin: 8px; margin-top: 4px; padding: 4px;border-color: #F7F7F7;}
+    .card-img-top{height: 50%;width: 100%;}
+    .card-body{height: 40%; padding: 14px; width: 100%;}
+    .card-description{height: 40%; margin-bottom: 10px; margin-top: 2px; padding: 14px;}
+}
+
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px) {
+    .servico{width: 49%; float: left; margin-right: 2%;}
+    .servico:nth-child(2){margin-right: 0;}
+    .newsletter h2{font-size: 2em;}
+    .newsletter h3{font-size: 1.5em;}
+    .newsletter input{width: 70%; padding: 2%; float: left; margin-right: 1%; margin-top: 1%;}
+    .newsletter button{width: 29%; padding: 2%; float: right; margin-top: 1%;}
+    
+}
+
+
+
+/* SMALL DEVICES - TABLETS E DESKTOPS*/
+@media screen and (min-width: 960px) {
+    .title{width: 70%; float: left; text-align: left;}
+    .title h2{font-size: 3em;}
+    .title h3{font-size: 2em;}
+    .buttons{width: 30%; float: right; margin-top: 0;}
+    .servico {width: 32%;}
+    .servico:nth-child(2){margin-right: 2%;}
+    .servico:nth-child(3){margin-right: 0;}
+    .pedidos{display: flex; width: 100% !important; margin: 4px !important;}
+    .newsletter input{width: 60%; float: none;}
+    .newsletter button{width: 20%; float: none;}
+    .logo{
+        width: 160px;
+        height: 160px;
+        float: left;
+        background: url(../img/logotipo\ horti\ fruti\ diadema.png) center center/214px no-repeat;
+        font-size: 0;
+    }
+    .btn-pedido {margin-top: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    .btn-tabela {margin-bottom: 2%; width: 30%; height: 2%; padding: 20px; text-align: center; margin: 2px; font-size: 12pt;}
+    
+    
+}
+
+
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1280px) {
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+    .menu{width: auto; height: 56px; line-height: 56px; float: right; background-color: #197547; display: block!important; position: static; border-radius: 10px;}
+    .menu li{padding: 0; float: left;}
+    .menu li a{color: #fff; font-size: 1em; padding: 15px;}
+    .menu li a:hover{border: none; color: #fff; font-weight: 800;}
+    .newsletter input{width: 40%; height: 2%; padding: 20px; float: none; font-size: 12pt;}
+    .newsletter button:hover{background-color: #0e3f26; color: #fff; }
+    .newsletter button{width: 20%; height: 2%; padding: 20px; font-size: 12pt;}
+    .banner {
+        background: url(../img/bg.jpg) no-repeat fixed;  
+        background-color: #197547;
+        background-size: cover; 
+        height: 400px; 
+    }
+  
+
+    
+}
